@@ -1,0 +1,53 @@
+body {
+    background-color: aquamarine;
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color:black;
+    font-family: Verdana;
+}
+p.pewdiepie_text {
+    text-align: center;
+    color:red;
+    font-size: 30px;
+    font-family: Verdana;
+}
+strong.pewdiepie_header {
+    text-decoration: underline;
+    color:darkred;
+    font-size: 30px;
+    font-family: Verdana;
+}
+p.cocomelon_text {
+    text-align: center;
+    color:darkgreen;
+    font-size: 30px;
+    font-family: Verdana;
+}
+strong.cocomelon_header {
+    text-decoration: underline;
+    color:green;
+    font-size: 30px;
+    font-family: Verdana;
+}
+p.diff_text {
+    text-align: center;
+    color:black;
+    font-size: 30px;
+    font-family: Verdana;
+}
+strong.diff_header {
+    text-decoration: underline;
+    color:black;
+    font-size: 30px;
+    font-family: Verdana;
+}
+div.github_icon {
+    position: fixed;
+    height: 5%;
+    width: 3%;
+    top: 20px;
+    right: 20px;
+    content: url(https://image.flaticon.com/icons/png/512/25/25231.png);
+}

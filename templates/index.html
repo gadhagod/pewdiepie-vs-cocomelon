@@ -1,0 +1,39 @@
+<head>
+      <meta name="Pewdiepie VS Cocomelon" content="Description">
+      <link rel="shortcut icon" href="{{ url_for('static', filename='yt_icon.png') }}">
+      <link rel= "stylesheet" type= "text/css" href="{{ url_for('static',filename='index.css') }}">
+</head>
+<body>
+      <center>
+            <a href="https://github.com/gadhagod/pewdiepie-vs-cocomelon">
+                  <div class="github_icon"></div>
+            </a>
+            
+            <img src="{{ pewdiepie['snippet']['thumbnails']['default']['url'] }}">
+            <br>
+            <br>
+            <strong class="pewdiepie_header">Subscribers</strong>
+            <p class="pewdiepie_text">{{ pewdiepie['statistics']['subscriberCount'] }}</p>
+            <strong class="pewdiepie_header">Views</strong>
+            <p class="pewdiepie_text">{{ pewdiepie['statistics']['viewCount'] }}</p>
+
+            <hr>
+
+            <img src="{{ cocomelon['snippet']['thumbnails']['default']['url'] }}">
+            <br>
+            <br>
+            <strong class="cocomelon_header">Subscribers</strong>
+            <p class="cocomelon_text">{{ cocomelon['statistics']['subscriberCount'] }}</p>
+            <strong class="cocomelon_header">Views</strong>
+            <p class="cocomelon_text">{{ cocomelon['statistics']['viewCount'] }}</p>
+
+            <hr>
+
+            <h1>Difference</h1>
+            <strong class="diff_header">Subscribers</strong>
+            <p class="diff_text">{{ difference['subscriberCount'].replace('-', '') }}</p>
+            <strong class="diff_header">Views</strong>
+            <p class="diff_text">{{ difference['viewCount'].replace('-', '') }}</p>
+
+      </center>
+</body>

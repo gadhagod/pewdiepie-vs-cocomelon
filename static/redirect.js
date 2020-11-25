@@ -1,0 +1,1 @@
+window.location.replace('https://pewdiepie-vs-cocomelon.herokuapp.com/');
